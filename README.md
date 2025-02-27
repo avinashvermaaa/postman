@@ -23,6 +23,7 @@ DELETE	      Delete data (Delete)
 
 * path parametes :- `/:id`
   `example :- {{baseURL}}/books/:id`
+  `in params -> path variables -> id = 29cd820f-82f9-4b45-a7f4-0924111b5b89`
 
 # Sending data with POST
 * add a book
