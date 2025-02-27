@@ -36,3 +36,25 @@ body -> raw -> json { as RESTApi accepts json as body}
   "yearPublished": 2025
 }
 ```
+* add an authorization 
+``` req. method POST
+in headers tab -> api-key = postmanrulz
+in body tab -> raw -> json
+{
+  "title": "postmanwa",
+  "author": "avinash",
+  "genre": "fiction",
+  "yearPublished": 2025
+}
+{
+    "id": "bd681e02-b583-49c8-8a1c-d53f2d8d7c1a",
+    "title": "postmanwa",
+    "author": "avinash",
+    "genre": "fiction",
+    "yearPublished": 2025,
+    "checkedOut": false,
+    "isPermanentCollection": false,
+    "createdAt": "2025-02-27T21:26:44.314Z"
+}
+```
+
