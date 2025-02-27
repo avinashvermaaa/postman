@@ -9,3 +9,7 @@ DELETE	      Delete data (Delete)
 ```
 * Response status codes
 ![image](https://github.com/user-attachments/assets/5151cc47-757e-43f4-ba4c-515a618cd9a1)
+
+# Request  Parameters
+* variables :-
+`{{variableName}}` -> variableName  and select "Collection" as the scope, then click Set variable.
