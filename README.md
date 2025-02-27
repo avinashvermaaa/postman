@@ -58,6 +58,9 @@ in body tab -> raw -> json
 }
 ```
 
-
+* Use POSTMAN Auth instead!
+```
+delete the previous api-key -> save -> go to your collection {Postman Api challenge -> authorization -> (autz type ) = api key -> add api-key = value -> save and re run POST request
+```
 
 
