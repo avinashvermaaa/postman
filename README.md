@@ -11,9 +11,15 @@ DELETE	      Delete data (Delete)
 ![image](https://github.com/user-attachments/assets/5151cc47-757e-43f4-ba4c-515a618cd9a1)
 
 # Request  Parameters
+
 * variables :-
 `{{variableName}}` -> variableName  and select "Collection" as the scope, then click Set variable.
+`example :- https://library-api.postmanlabs.com    {{baseURL}}`
+
 * Query Parametes :- `?` `key=value` ->
   single-> (https://website/photos?orientation=landscape)
   multiple ->(https://website/photos?orientation=landscape&size=500x400)
 ` example :- https://library-api.postmanlabs.com/books?genre=fiction`
+
+* path variables :- `:id`
+  `example :- {{baseURL}}/books/:id`
