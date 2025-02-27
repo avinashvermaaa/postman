@@ -12,7 +12,7 @@ DELETE	      Delete data (Delete)
 
 # Request  Parameters
 
-* variables :-
+* variables :- Reuse values to keep your work DRY (Don’t Repeat Yourself)
 `{{variableName}}` -> variableName  and select "Collection" as the scope, then click Set variable.
 `example :- https://library-api.postmanlabs.com    {{baseURL}}`
 
