@@ -21,5 +21,5 @@ DELETE	      Delete data (Delete)
   multiple ->(https://website/photos?orientation=landscape&size=500x400)
 ` example :- https://library-api.postmanlabs.com/books?genre=fiction`
 
-* path variables :- `:id`
+* path parametes :- `/:id`
   `example :- {{baseURL}}/books/:id`
