@@ -62,5 +62,16 @@ in body tab -> raw -> json
 ```
 delete the previous api-key -> save -> go to your collection {Postman Api challenge -> authorization -> (autz type ) = api key -> add api-key = value -> save and re run POST request
 ```
+* Scripting
+```
+Scripting in Postman
+Postman allows you to add automation and dynamic behaviors to your collections with scripting.
 
+Postman will automatically execute any provided scripts during two events in the request flow:
+
+Immediately before a request is sent: pre-request script (Pre-request Script of Scripts tab).
+Immediately after a response comes back: post-response script (Post-response of Scripts tab).
+for example :-can access the JSON response body from an API with: 
+pm.response.json()
+```
 
