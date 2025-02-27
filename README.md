@@ -13,3 +13,7 @@ DELETE	      Delete data (Delete)
 # Request  Parameters
 * variables :-
 `{{variableName}}` -> variableName  and select "Collection" as the scope, then click Set variable.
+* Query Parametes :-
+  `key=value` ->
+  single-> (https://website/photos?orientation=landscape)
+  multiple ->(https://website/photos?orientation=landscape&size=500x400)
