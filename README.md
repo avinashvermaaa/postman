@@ -23,3 +23,15 @@ DELETE	      Delete data (Delete)
 
 * path parametes :- `/:id`
   `example :- {{baseURL}}/books/:id`
+
+# Sending data with POST
+* add a book
+```
+body -> raw -> json { as RESTApi accepts json as body}
+{
+  "title": "book",
+  "author": "avinash",
+  "genre": "fiction",
+  "yearPublished": 2025
+}
+```
