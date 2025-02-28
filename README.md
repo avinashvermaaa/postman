@@ -3,8 +3,7 @@
 ```
 GET           Retrieve data (Read)
 POST          Send data (Create)
-PUT/PATCH     Update data (Update)
-PUT           usually replaces an entire resource, whereas PATCH usually is for partial updates
+PUT/PATCH     Update data (Update) PUT usually replaces an entire resource, whereas PATCH usually is for partial updates
 DELETE	      Delete data (Delete)
 ```
 * Response status codes
@@ -85,5 +84,15 @@ scripts tab -> post-response tab ->
 
 fetch data only id -> create/ update the id variable
 {{id}} variable is created and can be used in 'get book by id' request -> {{baseURL}}/books/:id
+```
+* Patch
+```
+PATCH -> {{baseURL}}/books/:id
+in params tab -> set path variable id = {{id}}   [ which book data i want to update -> checkdout = true ]
+in body tab -> raw -> 
+{ 
+  "checkedOut": true 
+}
+
 ```
 
