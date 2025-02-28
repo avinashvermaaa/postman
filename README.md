@@ -2,9 +2,10 @@
 ![image](https://github.com/user-attachments/assets/79550992-2727-4011-8ad8-68ecea3a3ee0)
 * Request methods
 ```
-GET           Retrieve data (Read)
 POST          Send data (Create)
-PUT/PATCH     Update data (Update) PUT usually replaces an entire resource, whereas PATCH usually is for partial updates
+GET           Retrieve data (Read)
+PUT/PATCH     Update data (Update) 
+   PUT usually replaces an entire resource, whereas PATCH usually is for partial updates
 DELETE	      Delete data (Delete)
 ```
 * Response status codes
