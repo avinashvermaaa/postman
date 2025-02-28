@@ -65,13 +65,25 @@ delete the previous api-key -> save -> go to your collection {Postman Api challe
 * Scripting
 ```
 Scripting in Postman
-Postman allows you to add automation and dynamic behaviors to your collections with scripting.
+  Postman allows you to add automation and dynamic behaviors to your collections with scripting.
+  Postman will automatically execute any provided scripts during two events in the request flow:
 
-Postman will automatically execute any provided scripts during two events in the request flow:
+  Immediately before a request is sent: pre-request script (Pre-request Script of Scripts tab).
+  Immediately after a response comes back: post-response script (Post-response of Scripts tab).
 
-Immediately before a request is sent: pre-request script (Pre-request Script of Scripts tab).
-Immediately after a response comes back: post-response script (Post-response of Scripts tab).
+scripts tab -> post-response tab ->
 for example :-can access the JSON response body from an API with: 
 pm.response.json()
+```
+```
+scripts tab -> post-response tab ->
+  // save the "id" value from the response to a variable named "id"
+  const id = pm.response.json().id
+  // save the id as a collection variable named "id"
+  pm.collectionVariables.set("id", id)
+
+
+fetch data only id -> create/ update the id variable
+{{id}} variable is created and can be used in 'get book by id' request -> {{baseURL}}/books/:id
 ```
 
