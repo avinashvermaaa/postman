@@ -102,3 +102,19 @@ in params tab -> set path variable id = {{id}}   [ which book data i want to del
 
 status code :- 204 -> 404 [error not found as book is deleted 
 ```
+
+# Learning :-
+```
+Recap
+Wow! You learned a ton so far. Now you know:
+
+what APIs are
+what Postman is for
+how to build API requests (GET, POST, PATCH, DELETE)
+how to interpret API responses
+how to read API documentation
+how to authorize requests to an API
+how to set variables in Postman for efficiency
+how to automate processes with scripts in Postman
+how to generate API call code snippets for your apps using Postman's codegen feature
+```
