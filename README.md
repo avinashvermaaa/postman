@@ -9,7 +9,7 @@ DELETE	      Delete data (Delete)
 * Response status codes
 ![image](https://github.com/user-attachments/assets/5151cc47-757e-43f4-ba4c-515a618cd9a1)
 
-# Request  Parameters
+# GET :- Request  Parameters
 
 * variables :- Reuse values to keep your work DRY (Don’t Repeat Yourself)
 `{{variableName}}` -> variableName  and select "Collection" as the scope, then click Set variable.
@@ -24,7 +24,7 @@ DELETE	      Delete data (Delete)
   `example :- {{baseURL}}/books/:id`
   `in params -> path variables -> id = 29cd820f-82f9-4b45-a7f4-0924111b5b89`
 
-# Sending data with POST
+# POST
 * add a book
 ```
 body -> raw -> json { as RESTApi accepts json as body}
@@ -85,7 +85,7 @@ scripts tab -> post-response tab ->
 fetch data only id -> create/ update the id variable
 {{id}} variable is created and can be used in 'get book by id' request -> {{baseURL}}/books/:id
 ```
-* Patch
+# Patch
 ```
 PATCH -> {{baseURL}}/books/:id
 in params tab -> set path variable id = {{id}}   [ which book data i want to update -> checkdout = true ]
@@ -95,4 +95,10 @@ in body tab -> raw ->
 }
 
 ```
+# Delete
+```
+DELETE -> {{baseURL}}/books/:id
+in params tab -> set path variable id = {{id}}   [ which book data i want to delete {{id}} ]
 
+status code :- 204 -> 404 [error not found as book is deleted 
+```
