@@ -68,8 +68,8 @@ Scripting in Postman
   Postman allows you to add automation and dynamic behaviors to your collections with scripting.
   Postman will automatically execute any provided scripts during two events in the request flow:
 
-  Immediately before a request is sent: pre-request script (Pre-request Script of Scripts tab).
-  Immediately after a response comes back: post-response script (Post-response of Scripts tab).
+  pre-request script  :- Immediately before a request is sent: (Pre-request Script of Scripts tab).
+  post-request script :- Immediately after a response comes back: (Post-response of Scripts tab).
 
 scripts tab -> post-response tab ->
 for example :-can access the JSON response body from an API with: 
