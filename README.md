@@ -1,4 +1,5 @@
 # Postman API Challenge 
+![image](https://github.com/user-attachments/assets/79550992-2727-4011-8ad8-68ecea3a3ee0)
 * Request methods
 ```
 GET           Retrieve data (Read)
@@ -118,3 +119,5 @@ how to set variables in Postman for efficiency
 how to automate processes with scripts in Postman
 how to generate API call code snippets for your apps using Postman's codegen feature
 ```
+
+
